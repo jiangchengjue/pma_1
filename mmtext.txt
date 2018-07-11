@@ -3,4 +3,10 @@ fffhf
 dfhgf
 dhfh
 dhdf
-Line 6953: 06-25 07:43:24.712  4751  4822 D MceSM   : Message Type = NewMessage
+07:43:24.712  4751  4822 D MceSM   : Message Type = NewMessage
+mount -o remount /dev/block/nandd /system (或者mount -o remount,rw /system)
+exit
+adb push xxx /system/apps/
+chown -R system:system /system/apps/xxx
+chmod 664 /sytem/apps/xxx (或者chmod 777 /system/app/)
+reboot
