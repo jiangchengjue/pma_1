@@ -2,11 +2,10 @@ git m
 fffhf
 dfhgf
 dhfh
-dhdf
+dhdfnsdndnvdnfbvncbnckkcmv
 07:43:24.712  4751  4822 D MceSM   : Message Type = NewMessage
 mount -o remount /dev/block/nandd /system (或者mount -o remount,rw /system)
 exit
 adb push xxx /system/apps/
 chown -R system:system /system/apps/xxx
-chmod 664 /sytem/apps/xxx (或者chmod 777 /system/app/)
-reboot
+chmod 664 /sytem/apps/xxx
